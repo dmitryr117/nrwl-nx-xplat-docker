@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  ubvnc:
+    build: .
+    image: ubvnc
+    privileged: true
+    ports:
+      - "5901:5901"
+      - "6901:6901"
+      - "4210:4200"
+    volumes:
+      - ./xplat:/headless/xplat
+      - /dev/kvm:/dev/kvm
