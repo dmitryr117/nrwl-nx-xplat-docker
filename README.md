@@ -27,3 +27,4 @@ docker-compose.yml - flag configuration of docker image
 /startup.sh - this shell script is used to build, rebuild, start and stop a container. You can see commands available by typing: `./startup.sh -h`
 
 
+Pre-built docker versions of @nstudio/xplat development environment with android emulators
