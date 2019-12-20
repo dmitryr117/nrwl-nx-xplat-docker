@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  nx-ns-android:
+    image: dmitryr117/xplat-android-vnc:0.0.1-ubuntu1804-nx890-ns630-android28-x86_64
+    privileged: true
+    ports:
+      - "5902:5901"
+      - "6902:6901"
+      - "4211:4200"
+    volumes:
+      - ./xplat:/headless/xplat
+      - /dev/kvm:/dev/kvm
