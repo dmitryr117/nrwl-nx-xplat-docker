@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dockerized Nstudio Xplat with Android emulator
 
 ## Intro
@@ -27,3 +28,7 @@ docker-compose.yml - flag configuration of docker image
 /startup.sh - this shell script is used to build, rebuild, start and stop a container. You can see commands available by typing: `./startup.sh -h`
 
 
+=======
+# nrwl-nx-xplat-docker
+Pre-built docker versions of @nstudio/xplat development environment with android emulators
+>>>>>>> edbd0906bfe8f3f8cf16ddfe9c9e8d6b41898ac9
